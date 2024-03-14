@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="enter_your_user_name">User Name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="hi_please_login">Hi,\nPlease Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navQuanLyPhieuMuon">Quản lý phiếu mượn</string>
+    <string name="navQuanLyLoaiSach">Quản lý loại sách</string>
+    <string name="navQuanLySach">Quản lý sách</string>
+    <string name="navQuanLyThanhVien">Quản lý thành viên</string>
+    <string name="navTop10SachMuonNhieuNhat">Top 10 sách mượn nhiều nhất</string>
+    <string name="navDoanhThu">Doanh thu</string>
+    <string name="navDoiMatKhau">Đổi mật khẩu</string>
+    <string name="navDangXuat">Đăng xuất</string>
+    <string name="navThongKe">Thống kê</string>
+    <string name="navTaiKhoan">Tài khoản</string>
+    <string name="navTaoTaiKhoan">Tạo tài khoản</string>
+</resources>

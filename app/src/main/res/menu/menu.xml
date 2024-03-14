@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navQuanLyPhieuMuon"
+            android:title="@string/navQuanLyPhieuMuon"
+            android:icon="@drawable/quan_ly_phieu_muon" />
+        <item
+            android:id="@+id/navQuanLyLoaiSach"
+            android:title="@string/navQuanLyLoaiSach"
+            android:icon="@drawable/quan_ly_loai_sach" />
+        <item
+            android:id="@+id/navQuanLySach"
+            android:title="@string/navQuanLySach"
+            android:icon="@drawable/quan_ly_sach" />
+        <item
+            android:id="@+id/navQuanLyThanhVien"
+            android:title="@string/navQuanLyThanhVien"
+            android:icon="@drawable/quan_ly_thanh_vien" />
+    </group>
+
+    <item android:title="@string/navThongKe">
+        <menu>
+            <item
+                android:id="@+id/navTop10DanhSachMuonNhieuNhat"
+                android:title="@string/navTop10SachMuonNhieuNhat"
+                android:icon="@drawable/top_10_sach_muon_nhieu_nhat" />
+            <item
+                android:id="@+id/navDoanhThu"
+                android:title="@string/navDoanhThu"
+                android:icon="@drawable/doanh_thu" />
+        </menu>
+    </item>
+
+    <item android:title="@string/navTaiKhoan">
+        <menu>
+            <item
+                android:id="@+id/navTaoTaiKhoan"
+                android:title="@string/navTaoTaiKhoan"
+                android:icon="@drawable/tao_tai_khoan"/>
+            <item
+                android:id="@+id/navDoiMatKhau"
+                android:title="@string/navDoiMatKhau"
+                android:icon="@drawable/doi_mat_khau" />
+            <item
+                android:id="@+id/navDangXuat"
+                android:title="@string/navDangXuat"
+                android:icon="@drawable/dang_xuat" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="14dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên thành viên" />
+
+        <TextView
+            android:id="@+id/tv2cham1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toEndOf="@+id/tv1"
+            android:layout_marginStart="3dp" />
+
+        <TextView
+            android:id="@+id/tvTenThanhVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv1"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên thủ thư"
+            android:layout_below="@+id/tv1" />
+
+        <TextView
+            android:id="@+id/tv2cham2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toEndOf="@+id/tv2"
+            android:layout_below="@+id/tv2cham1"
+            android:layout_marginStart="23dp" />
+
+        <TextView
+            android:id="@+id/tvTenThuThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv2"
+            android:layout_below="@+id/tvTenThanhVien"
+            android:layout_marginStart="30dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách"
+            android:layout_below="@+id/tv2" />
+
+        <TextView
+            android:id="@+id/tv2cham3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toEndOf="@+id/tv3"
+            android:layout_below="@+id/tv2cham2"
+            android:layout_marginStart="37.6dp" />
+
+        <TextView
+            android:id="@+id/tvTenSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv3"
+            android:layout_below="@+id/tvTenThuThu"
+            android:layout_marginStart="44dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Ngày" />
+
+        <TextView
+            android:id="@+id/tv2cham4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv4"
+            android:layout_below="@+id/tv2cham3"
+            android:text=":"
+            android:layout_marginStart="61.5dp" />
+
+        <TextView
+            android:id="@+id/tvNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv4"
+            android:layout_below="@+id/tvTenSach"
+            android:layout_marginStart="68dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="Trạng thái" />
+
+        <TextView
+            android:id="@+id/tv2cham5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toEndOf="@+id/tv5"
+            android:layout_below="@+id/tv2cham4"
+            android:layout_marginStart="31.5dp" />
+
+        <TextView
+            android:id="@+id/tvTenTrangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv5"
+            android:layout_below="@+id/tvNgay"
+            android:layout_marginStart="38dp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:text="Tiền" />
+
+        <TextView
+            android:id="@+id/tv2cham6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toEndOf="@+id/tv6"
+            android:layout_below="@+id/tv2cham5"
+            android:layout_marginStart="67dp" />
+
+        <TextView
+            android:id="@+id/tvTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv6"
+            android:layout_below="@+id/tvTenTrangThai"
+            android:layout_marginStart="74dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTraSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTien"
+            android:background="@drawable/button_background"
+            android:text="Trả Sách"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
